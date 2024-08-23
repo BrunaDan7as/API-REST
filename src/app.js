@@ -5,12 +5,12 @@ const express = require('express')
 const app = express()
 
 // definir a porta do projeto
-const port = 3000
+const port = 3001
 
 // criar rota padrão ou raiz
 
 app.get('/', (req, res) => {
-    res.send('Olá Mundo!')
+    res.send('Curso de Node JS')
 })
 
 // escutar porta
